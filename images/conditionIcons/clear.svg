@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1104 892" style="enable-background:new 0 0 1104 892;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:10;}
+	.st1{fill:#ffffff;stroke:#ffffff;stroke-width:20;stroke-miterlimit:10;}
+
+
+    .go-clockwise {
+        -webkit-animation: clockwise 50s infinite linear;
+        -moz-animation: clockwise 50s infinite linear;
+        animation: clockwise 50s infinite linear;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+    }
+    @-webkit-keyframes clockwise {
+        0%   { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+    @-moz-keyframes clockwise {
+        0%   { -moz-transform: rotate(0deg); }
+        100% { -moz-transform: rotate(360deg); }
+    }
+    @keyframes clockwise {
+        0%   { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+
+    @-webkit-keyframes pulse { 
+        0% { -webkit-transform: scale(1); } 
+        50% { -webkit-transform: scale(1.05); } 
+        100% { -webkit-transform: scale(1); } 
+    } 
+    @-moz-keyframes pulse { 
+        0% { -moz-transform: scale(1); } 
+        50% { -moz-transform: scale(1.05); } 
+        100% { -moz-transform: scale(1); } 
+    } 
+    @keyframes pulse { 
+        0% { transform: scale(1); } 
+        50% { transform: scale(1.05); } 
+        100% { transform: scale(1); } 
+    } 
+    .pulse { 
+        -webkit-animation: pulse 5s infinite ease;
+        -moz-animation: pulse 5s infinite ease;
+        animation: pulse 5s infinite ease;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+    }
+    
+
+</style>
+<circle class="st0" cx="586.7" cy="431.3" r="231.5"/>
+        <g class="pulse">
+            <g class="go-clockwise">
+                <path class="st1" d="M776.6 79.1L713.2 189c-2 3.4-.8 7.9 2.6 9.8 3.4 2 7.9.8 9.8-2.6L789 86.3c2-3.4.8-7.9-2.6-9.8-3.4-2-7.8-.8-9.8 2.6zM345.9 578.3l-99.6 78.8c-3.1 2.5-3.7 7-1.2 10.1 2.5 3.1 7 3.7 10.1 1.2l99.6-78.8c3.1-2.5 3.7-7 1.2-10.1-2.5-3.1-7-3.7-10.1-1.2zM301.4 451.8l-126.8-5.2c-4-.2-7.3 2.9-7.5 6.9-.2 4 2.9 7.3 6.9 7.5l126.8 5.2c4 .2 7.3-2.9 7.5-6.9.1-4-3-7.3-6.9-7.5zM428.7 200.4L358.1 95c-2.2-3.3-6.7-4.2-10-2s-4.2 6.7-2 10l70.6 105.5c2.2 3.3 6.7 4.2 10 2 3.4-2.3 4.2-6.8 2-10.1zM572.3 29.2L567.1 156c-.2 4 2.9 7.3 6.9 7.5 4 .2 7.3-2.9 7.5-6.9l5.2-126.8c.2-4-2.9-7.3-6.9-7.5-4-.1-7.3 3-7.5 6.9zM215.2 250.8l118.4 45.8c3.7 1.4 7.9-.4 9.3-4.1 1.4-3.7-.4-7.9-4.1-9.3l-118.4-45.8c-3.7-1.4-7.9.4-9.3 4.1-1.5 3.6.4 7.8 4.1 9.3zM1012.2 469.6c.1-4-3-7.3-7-7.4l-126.8-4.4c-4-.1-7.3 3-7.4 7-.1 4 3 7.3 7 7.4l126.8 4.4c3.9.1 7.3-3 7.4-7zM434.1 672.3c-3.5-1.9-7.9-.7-9.8 2.7l-62.8 110.3c-1.9 3.5-.7 7.9 2.7 9.8 3.5 1.9 7.9.7 9.8-2.7l62.8-110.3c2-3.4.8-7.8-2.7-9.8zM708 703.7c-3.6 1.6-5.2 5.9-3.6 9.5l52 115.8c1.6 3.6 5.9 5.2 9.5 3.6 3.6-1.6 5.2-5.9 3.6-9.5l-52-115.8c-1.6-3.6-5.9-5.2-9.5-3.6zM954.3 240.2c-2.2-3.4-6.6-4.3-10-2.2l-106.8 68.6c-3.4 2.2-4.3 6.6-2.2 10 2.2 3.4 6.6 4.3 10 2.2l106.8-68.6c3.4-2.2 4.3-6.7 2.2-10zM948.6 673.6c1.9-3.5.7-7.9-2.7-9.8L835.6 601c-3.5-1.9-7.9-.7-9.8 2.7-1.9 3.5-.7 7.9 2.7 9.8l110.3 62.8c3.4 1.9 7.8.7 9.8-2.7zM567.3 870.2c3.9.8 7.7-1.8 8.5-5.7l23.9-124.6c.8-3.9-1.8-7.7-5.7-8.5-3.9-.8-7.7 1.8-8.5 5.7l-23.9 124.6c-.7 4 1.9 7.7 5.7 8.5z"/>
+            </g>
+        </g>
+</svg>

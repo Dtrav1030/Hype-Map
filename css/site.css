@@ -1,0 +1,980 @@
+body {
+	text-align: center;	
+	background-repeat: no-repeat;
+}
+
+.container {
+	overflow:hidden;
+	width: 100%;
+}
+
+.row{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#map{
+	width: 100%;
+	height: 600px;
+    text-align: left;
+}
+
+#map{
+	width: 100%;
+	height: 650px;
+    text-align: left;
+}
+
+#map div{
+    font-size:13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#map div a{
+   text-decoration: none;
+   color: #f24a56;
+}
+#map div a #refreshMap:hover{
+   -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+   transition: .5s;
+   color: #2c3e4e;
+}
+#mapButtons{
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+}
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+ 
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+ 
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+ 
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+#refreshFeed{
+	 text-align: center !important;
+    letter-spacing: 1px !important;
+    background: #2C3E50 !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: 300;
+    letter-spacing: 2px !important;
+    text-decoration: none !important;
+    padding: 15px 30px !important;
+    min-width: 150px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-right: 40px;
+}
+
+#refreshFeed:hover{
+  background: #fff !important;
+  color: #2C3E50 !important;
+  border: 2px solid #2C3E50 !important;
+  -webkit-transition: 5s !important;
+  -moz-transition: 5s !important;
+  -o-transition: 5s !important;
+  transition: .5s !important;
+    
+}
+
+#feed_buttons{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#feedMapLink{
+	text-align: center !important;
+	letter-spacing: 1px !important;
+	background: #2C3E50 !important;
+	color: #ffffff !important;
+	cursor: pointer !important;
+	font-size: 16px !important;
+    font-weight: 300;
+    letter-spacing: 2px !important;
+	text-decoration: none !important;
+	padding: 15px 40px;
+    min-width: 150px;
+	border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+#feedMapLink:hover{
+  background: #fff !important;
+  color: #2C3E50 !important;
+  border: 2px solid #2C3E50 !important;
+  -webkit-transition: 5s !important;
+  -moz-transition: 5s !important;
+  -o-transition: 5s !important;
+  transition: .5s !important;
+}
+
+
+#refreshMap{
+  text-align: center !important;
+  letter-spacing: 1px !important;
+  background: #2C3E50 !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: 300;
+  letter-spacing: 2px !important;
+  text-decoration: none !important;
+  margin-top: 15px;
+  padding: 15px 50px;
+  width: 20% !important;
+  border-radius: 5px;
+  margin: 20px;
+  border: 2px solid #fff;
+}
+
+#refreshMap:hover{
+  background: #fff !important;
+  color: #2C3E50 !important;
+  border: 2px solid #2C3E50 !important;
+  -webkit-transition: 5s !important;
+  -moz-transition: 5s !important;
+  -o-transition: 5s !important;
+  transition: .5s !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0px 2px 20px #777 !important;
+}
+#mapFeedLink{
+  text-align: center !important;
+  letter-spacing: 1px !important;
+  background: #2C3E50 !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: 300;
+  letter-spacing: 2px !important;
+  text-decoration: none !important;
+  margin-top: 15px;
+  padding: 15px 40px;
+  width: 20% !important;
+  border-radius: 5px;
+  margin: 10px;
+  border: 2px solid #fff;
+}
+#mapFeedLink:hover{
+  background: #fff !important;
+  color: #2C3E50 !important;
+  border: 2px solid #2C3E50 !important;
+  -webkit-transition: 5s !important;
+  -moz-transition: 5s !important;
+  -o-transition: 5s !important;
+  transition: .5s !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0px 2px 20px #777 !important;	
+}
+a.formatted_user{
+	color: #2c3e4e !important;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	line-height: 35px;
+}
+a.formatted_user:hover{
+	-webkit-transition: 5s;
+	-moz-transition: 5s;
+	-o-transition: 5s;
+	transition: .5s;
+	color: #f24a56 !important;
+}
+
+.pure-g{
+	letter-spacing: 1px !important;
+}
+
+#mapContainer{
+	width: 100%;
+	height: 100%;
+
+}
+
+h2.city{
+	margin-top: 19px;
+	font-weight: 300;
+	margin-bottom: 0 !important;
+}
+
+h2.select{
+  margin-top: 0 !important;
+	margin-bottom: 19px;
+	font-weight: 300;
+}
+
+.pure-menu-link img{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+
+/*Landing screen styles*/
+
+#logo {
+	width: 70%;
+    margin-top: 0px !important;
+	max-width: 500px;
+	margin-top: 60px;
+}
+
+.citySelectWrapper {
+	width: 70%;
+	max-width:300px;
+	margin: 25px auto;
+}
+
+#stateIcon {
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+#citySelect {
+	width: 70%;	
+}
+
+.seldrop{
+	margin-left: auto;
+	margin-right: auto;
+}
+p.start{
+	letter-spacing: 1px;
+	padding-top: 0;
+	margin-top: 0 !important;
+}
+
+.appButton {
+    text-align: center !important;
+    letter-spacing: 1px !important;
+    background: #2C3E50 !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    margin-top: 15px;
+    padding: 20px !important;
+    width: 20% !important;
+    min-width: 250px !important;
+    border-radius: 10px;
+}
+.appButton:hover {
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+    transform: translateY(-3px) !important;
+    box-shadow: 0px 2px 20px #777 !important;
+  }
+
+/*end landing screen styles*/
+
+/*menu style*/
+
+.menu {
+	background: #2C3E50;
+	width: 100%;
+	position: absolute;
+	top: -20.5em;
+	letter-spacing: normal;
+	z-index: +2;
+	
+	-webkit-transition: top 1s;
+	transition: top 1s;
+}
+.pure-menu-item{
+	font-size: 14px;
+	padding: 5px;
+}
+.pure-menu-link {
+	color: white;	
+	padding-top: 11px;
+	margin-top: 17px;
+	font-size: 20px;
+	text-align: right;
+	margin-right: auto;
+}
+
+.pure-menu-link:hover, .pure-menu-link:focus {
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+	background: #2C3E50;
+}
+
+.menuOpen {
+	top: 0 !important;	
+}
+
+.menuToggle {
+	/*padding: 1em;*/
+}
+
+/*.startOver {
+	position: absolute;
+	left:10px;	
+	padding: 15px 0;
+	color:white;
+	font-size: .8em;
+	text-decoration: none;
+}*/
+
+
+ul li a:hover{
+  -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+	color: #ec4c59; 
+}
+
+.menuToggle:hover{
+    color:#fff;
+}
+
+.startOver .fa {
+	margin-right: 8px;	
+}
+
+.cityName {
+	font-size: large;	
+}
+
+/*end menu style*/
+
+#weatherMainContainer {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 40px;
+	
+	-webkit-transition: position 1s; /* Safari */
+    transition: position 1s;	
+}
+
+#weatherMainContainer h2{
+	color: #fc4349;
+	font-size: 36px;
+}
+
+#twitterContainer{
+	margin-top: 30px;
+}
+
+#twitterMainContainer {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 60px;
+	
+	-webkit-transition: position 1s; /* Safari */
+    transition: position 1s;
+}
+
+.h1_tweets{
+    margin: .5em !important;
+}
+
+#twitterFeedContainer {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 60px;
+	
+	-webkit-transition: position 1s; /* Safari */
+    transition: position 1s;
+}
+#twitterfeed{
+	margin: 50px auto;
+	height: 650px;
+	width: 100%;
+	border: 1px solid #ccc;
+	overflow: auto;
+	background-color: rgba(255,255,255,1);
+	padding: 10px 25px;
+}
+
+hr:last-child{
+    display: none;
+}
+#twitterfeed img{
+	margin-right: 15px;
+  border: 3px solid #2c3e50;
+}
+#twitterfeed h1{
+	text-align: center;
+    margin-bottom: 40px;
+}
+
+#twitterfeed p{
+	line-height: 30px;
+}
+
+b a{
+    text-decoration: none;
+    color: #2c3e4e;
+}
+
+b a:hover{
+    transition: .5s;
+    text-decoration: none;
+    color: #f24a56;
+}
+
+p a{
+   text-decoration: none;
+   color: #f24a56;
+}
+p a:hover{
+   transition: .5s;
+   text-decoration: none;
+   color: #2c3e4e;
+}
+
+.twit{
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.absolute {
+	position: absolute;	
+	display: none;
+}
+
+
+#footer {
+	background:#2C3E50;
+    color:#fff;
+	width:100%;
+    font-size: 13px;
+	position:absolute;
+    line-height: 25px;
+	bottom:0;
+	left:0;
+}
+
+#twitterButton{
+	-moz-box-shadow: 1px 4px 5px rgba(44,62,80,.5);
+	-webkit-box-shadow: 1px 4px 5px rgba(44,62,80,.5);
+	box-shadow: 1px 4px 5px rgba(44,62,80,.5);
+	
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c3e50+0,2c3e50+100&0.9+0,1+90 */
+	background: -moz-linear-gradient(top,  rgba(252,67,73,0.99) 0%, rgba(252,67,73,0.98) 90%, rgba(252,67,73,0.97) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(252,67,73,0.99) 0%, rgba(252,67,73,0.98) 90%, rgba(252,67,73,0.97) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(252,67,73,0.99) 0%, rgba(252,67,73,0.98) 90%, rgba(252,67,73,0.97) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#weatherMain, #detailsTable {
+	-moz-box-shadow: 1px 4px 5px rgba(44,62,80,.5);
+	-webkit-box-shadow: 1px 4px 5px rgba(44,62,80,.5);
+	box-shadow: 1px 4px 9px rgba(44,62,80,.8);
+	
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c3e50+0,2c3e50+100&0.9+0,1+90 */
+	background: -moz-linear-gradient(top,  rgba(44,62,80,0.99) 0%,rgba(44,62,80,0.99) 90%,rgba(44,62,80,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(44,62,80,0.99) 0%,rgba(44,62,80,0.99) 90%,rgba(44,62,80,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(44,62,80,0.99) 0%,rgba(44,62,80,0.99) 90%,rgba(44,62,80,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    cursor:pointer;
+}
+
+/*weather styles*/
+
+#weatherMain {
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	width: 270px;
+	height:270px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+#weatherMain:hover {
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px #777;
+  }
+
+
+#conditionIcon {
+	width: 80px;
+	margin-top: 10px;
+}
+
+#temp {
+    font-size: 6em;
+    margin: -10px;
+}
+
+#condition {
+    font-size: 1.4em;
+    margin: 8px;	
+}
+
+#hiLo {
+    font-size: 1.6em;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    border-radius: 8px; 
+}
+
+.high {
+    font-weight: 600;
+    color: #e06819;
+}
+
+.low {
+	font-weight: 600;
+	color: #236DB7;	
+}
+
+/*end weather styles*/
+
+/*weather deatil style*/
+
+#details {
+	height: 0;	
+}
+
+#detailsContainer {
+	position: relative;
+	width: 100%;
+}
+
+/*#detailsToggle {
+    color: white;
+    background: #2C3E50;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+	z-index: 1;
+	-webkit-transition: margin 1s, top 1s;
+    transition: margin 1s, top 1s;
+}*/
+
+#detailsToggle:hover {
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+	color: black;
+	background:white;	
+}
+
+#detailsTable {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: -425px;
+	z-index: 1;
+	color: white;
+    border: 2px solid #fff;
+	-webkit-transition: top 1s; /* Safari */
+    transition: top 1s;
+}
+
+#th_cond{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 60px;
+    text-transform:capitalize;
+}
+
+#detailsTable td {	
+	border: 1px solid;	
+	padding: 20px;
+	width: 50%;
+    border: none;
+}
+
+.detailsOpen table {
+	top: 100px !important;	
+	position: relative !important; 
+		
+}
+
+.detailsOpen a {
+	top: 650px !important;
+	-webkit-transition: top 1s; /* Safari */
+    transition: top 1s;
+}
+
+table th:first-child{
+    margin-top: -50px;
+}
+
+/*end weather detail styles*/
+
+/*twiter button style*/
+
+/*.appButton {
+    text-align: center !important;
+    background: #FC4349 !important;
+    border-bottom: 3px solid #cc0000 !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    padding: 20px !important;
+     width: 20% !important;
+    min-width: 250px !important;
+}*/
+
+#twitterButton:hover {
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
+    transition: .5s;
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px #777;
+  }
+
+#twitterButton {
+    width: 300px;
+    margin: 18px auto;
+    padding: 18px 0px;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    cursor: pointer;
+}
+
+#twitterButton .twitterButtonText {
+    display: block;
+    margin-top: -6px;
+    margin-left: 20%;
+    float: left;
+}
+
+#twitterButton .twitterIcon {
+	font-size: 3em;	
+}
+
+#feed_buttons{
+    
+}
+
+/*end twitter button styles*/
+
+/*activity slider style*/
+
+.bx-viewport {
+	padding-bottom: 20px;	
+	max-width: 450px;
+	margin: 0 auto;
+	border: none !important;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 4px 5px rgba(44,62,80,.5) !important;
+	-webkit-box-shadow: 1px 4px 5px rgba(44,62,80,.5) !important;
+	box-shadow: 1px 4px 5px rgba(44,62,80,.5) !important;
+	height: 130px !important;
+	left: 0px !important;
+	background-color: #2C3E50 !important; 
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: white !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #2c3e50 !important;
+}
+
+#activities {
+	width: 90%;
+	max-width: 600px;
+	margin:10px auto;
+	color:white;
+}
+
+.activityImg {
+    position: absolute;
+    padding-left: 20px;
+    border-radius: 10px;
+    max-width: 120px !important;
+}
+
+.activityDesc {
+    text-align: center;
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 65%;
+}
+
+/*end activity slider styles*/
+
+
+
+/*responsive edits*/
+
+/*pure-u-sm -- >568px*/
+@media screen and (min-width: 35.5em) {
+	
+	#detailsToggle {
+
+	}
+	
+}
+
+/*pure-u-md -- >768px*/
+@media screen and (min-width: 48em) {
+	
+}
+
+/*pure-u-lg -- >1024px*/
+@media screen and (min-width: 64em) {
+	
+	#detailsToggle {
+    
+	}
+	
+}
+
+/*pure-u-xl -- >1280px*/
+@media screen and (min-width: 80em) {
+	
+}
+
+/*end responsive edits*/
+
+a#citySubmit.pure-button.pure-button-primary.appButton{
+    letter-spacing: 2px !important;
+     box-shadow: -1px 3px 9px #888888 !important;
+}
+
+#select{
+    margin-bottom: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    background: url('../images/down_arrow.png') no-repeat;
+    background-position: 100% 0px;
+    width: 80%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: -1px 3px 9px #888888;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #ec4c59;
+    letter-spacing: 2px;
+    font-size: .8em;
+    border-radius: 5px;
+}
+ 
+@media only screen and (max-width: 1440px) {
+  .feedBtn{
+    bottom: -3%;
+  }
+}
+    
+@media only screen and (max-width: 1240px) {
+  .feedBtn{
+    bottom: -3%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #mapContainer{
+    width: 100%;
+    height: 100%;
+  }
+  #twitterfeed{
+    width: 93%
+  }
+}
+@media only screen and (max-width: 768px) {
+  #twitterfeed{
+    width: 90%;
+  }
+  .feedBtn{
+    bottom: -5%;
+  }
+}
+@media only screen and (max-width: 449px) {
+    #logo{
+       margin-top: 80px !important; 
+    }
+    #refreshFeed{
+        width: 50px;
+    }
+    
+  .activityImg{
+    display: none !important;
+  }
+  .activityDesc {
+    text-align: center;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .activityDexc p{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+	#refreshMap{
+		margin: 0px;
+         margin-top: 200px !important;
+        padding: 10px 25px;
+  }
+    .bx-slider{
+        padding-bottom: 40px !important;
+    }
+  #mapFeedLink{
+    margin: 0px;
+    padding: 10px 25px;
+  }
+  #mapButtons{
+    position: absolute;
+    width: 100%;
+    bottom: -4px;
+  }
+  #refreshFeed{
+    padding: 10px 20px !important;
+    margin-right: 10px;
+  }
+  #feedMapLink{
+    padding: 10px 25px; 
+  }
+  #twitterfeed{
+    width: 85%
+  }
+  #th_cond{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 9%;
+    font-size: 14px;
+    text-transform:capitalize;
+  }
+
+    ul.activitySlider p{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 375px) {
+  #twitterButton .twitterButtonText{
+    margin-top: -7px;
+    margin-left: 12%;
+    float: left;
+  }
+  #mapButtons{
+    position: absolute;
+    width: 100%;
+  }
+  #twitterfeed{
+    width: 82%
+  }
+  #activities p{
+    padding: 8px;
+  }
+  #th_cond{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 7%;
+    font-size: 14px;
+    text-transform:capitalize;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #twitterContainer{
+    margin-top: 5px;
+  }
+	#twitterButton {
+    width: 70%;
+    margin: 14px auto;
+    padding: 35px 0px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #twitterButton .twitterIcon{
+    display: none;
+    margin-top: 0;
+  }
+  #twitterButton img{
+    width: 70%;
+    margin-top: 0;
+  }
+  #twitterButton .twitterButtonText{
+    margin-top: -22px;
+    margin-left: 0;
+    float: left;
+  }
+  .activityImg {
+    display: none !important;
+  }
+  .activityDesc {
+    text-align: center;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .appButton{
+    margin-top: 0;
+  }
+  .pure-menu-link img{
+    width: 40%;
+  }
+	#mapButtons{
+    position: absolute;
+    width: 100%;
+    padding: 10px 25px;
+  }
+  #refreshMap{
+    margin: 0px;
+    padding: 5px 15px;
+  }
+  #mapFeedLink{
+    margin: 0px;
+    padding: 5px 15px;
+  }
+  #twitterfeed{
+    width: 78%
+  }
+  #th_cond{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7%;
+    font-size: 14px;
+    text-transform:capitalize;
+  }
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1104 892" style="enable-background:new 0 0 1104 892;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;}
+	.st1{fill:none;stroke:#ffffff;;stroke-width:50;stroke-miterlimit:10;}
+    
+    .move {
+        -webkit-animation: mov 20s infinite ease;
+        -moz-animation: mov 20s infinite ease;
+         animation: mov 20s infinite ease;
+    }
+    @keyframes mov {
+        0%   { -webkit-transform: translate(0, 0); }
+        50%   { -webkit-transform: translate(45px, 0); }
+    }
+    @-moz-keyframes mov {
+        0%   { -moz-transform: translate(0, 0); }
+        50% { -moz-transform: translate(45px, 0); }
+    }
+    @keyframes mov {
+        0%   { transform: translate(0, 0); }
+        50% { transform: translate(45px, 0); }
+    }
+    .moveDown {
+        -webkit-animation: movDown 5s infinite linear;
+        -moz-animation: movDown 5s infinite linear;
+         animation: movDown 5s infinite linear;
+}
+     @-webkit-keyframes pulse { 
+        0% { -webkit-transform: scale(1); } 
+        50% { -webkit-transform: scale(1.2); } 
+        100% { -webkit-transform: scale(1); } 
+    } 
+    @-moz-keyframes pulse { 
+        0% { -moz-transform: scale(1); } 
+        50% { -moz-transform: scale(1.2); } 
+        100% { -moz-transform: scale(1); } 
+    } 
+    @keyframes pulse { 
+        0% { transform: scale(1); } 
+        50% { transform: scale(1.2); } 
+        100% { transform: scale(1); } 
+    } 
+    .pulse { 
+        -webkit-animation: pulse 5s infinite ease;
+        animation: pulse 5s infinite ease;
+        transform-origin: 50% 50%;
+}
+<!--Middle light-->
+    @-webkit-keyframes flashMid {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    @keyframes flashMid {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    .flashMid {
+        -webkit-animation: flashMid 5s infinite ease;
+        animation: flashMid 5s infinite ease;
+    }
+<!--left light-->
+    @-webkit-keyframes flashLeft {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    @keyframes flashLeft {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    .flashLeft {
+        -webkit-animation: flashLeft 6s infinite ease;
+        animation: flashLeft 6s infinite ease;
+    }
+<!--right light-->
+    @-webkit-keyframes flashRight {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    @keyframes flashRight {
+        0%, 50%, 100% {opacity: 1;}
+        25%, 75% {opacity: 0;}
+    }
+    .flashRight {
+        -webkit-animation: flashRight 7s infinite ease;
+        animation: flashRight 7s infinite ease;
+    }
+</style>
+<g class="move">
+    <g class="flashMid">
+<!--Middle light-->
+    <path class="st0" d="M557.6 427.1c3.9-.3 7.9-.5 11.8-.7 5.2-.3 10.5-.6 15.7-.9 6.6-.4 13.1-.8 19.6-1.2 6.6-.4 13.1-.8 19.6-1.2 5.9-.4 11.8-.7 17.6-1.1 5.9-.4 11.8-.7 17.6-1.1 7.2-.3 14.3-.4 21.5-.8-17.5 31.8-34.8 63.5-52.3 95.3-11.3 20.6-22.8 41-34.9 62.7 31.5-2 61.6-3.8 91.8-5.6 1.4 4.7-1.8 6.4-3.4 8.6-64.6 90.8-129.4 181.6-194.1 272.3-1.8 2.5-3.1 5.7-6.4 6.2 3-14.8 9.1-28.4 13.9-42.6 15.8-45.8 31.9-91.5 47.8-137.3 1.1-3.3 2.1-6.7 3.4-10.7-29.2 1.8-57.5 3.5-87.6 5.4 24-82.3 47.6-163.6 71.2-244.8 9.1-1 18.1-1.8 27.2-2.5zM391.4 419.6v-2c4.8.4 9.6.9 14.4 1.4.2 1.1 0 2-.7 2.5-4.8 1.7-9.5 2.2-13.7-1.9zM470.9 425.4c-.1.6-.1 1.2-.3 1.8-3.8 2.6-7.5 2.3-10.9-.3-.5-.8-.6-1.6-.2-2.6 3.8.4 7.6.7 11.4 1.1zM420.3 420.5c3.5.3 6.9.7 10.3 1 .3 1 0 1.8-.6 2.5-3.4 1.8-6.6 1.5-9.6-.9-.5-.8-.5-1.7-.1-2.6z"/>
+    </g>
+<!--left light-->
+    <g class="flashLeft">
+    <path class="st0" d="M405.7 420.4c2.1.2 4.2.4 6.2.6 2.8.3 5.5.5 8.3.8 3.5.3 6.9.7 10.3 1 3.5.3 6.9.7 10.3 1l9.3.9 9.3.9c3.8.5 7.5 1.1 11.2 1.5-12.4 22.3-24.8 44.6-37.3 66.8-8.1 14.4-16.2 28.7-24.8 43.9 16.6 1.6 32.4 3.2 48.3 4.7.3 3.7-1.6 4.7-2.6 6.1C411 610.8 367.7 673 324.5 735.2c-1.2 1.7-2.2 4-4 4 3.2-10.9 7.7-20.6 11.7-30.8 13-33 26.3-66 39.4-99 .9-2.4 1.8-4.9 2.9-7.8-15.4-1.5-30.3-3-46.1-4.5 21.2-59.8 42-118.8 63-177.8 4.8.6 9.6.9 14.3 1.1zM716.5 402.3c-.3-.6-.4-1.3-.7-1.8 4.7-1.3 9.3-2.5 14-3.8.6.9.7 1.8.3 2.6-4 3.2-8.3 5.3-13.6 3zM792.8 379.4c.1.6.3 1.1.4 1.8-2.6 3.8-6.2 4.8-10.3 3.6-.8-.5-1.1-1.3-1.1-2.4 3.6-1 7.4-2 11-3zM743.8 392.8c3.3-.9 6.7-1.8 10-2.7.6.9.7 1.7.3 2.5-2.5 2.9-5.7 3.8-9.3 2.5-.7-.4-1-1.2-1-2.3z"/>
+    </g>
+<!--right light-->
+    <g class="flashRight">
+    <path class="st0" d="M730.2 398c2-.6 4-1.1 6-1.6 2.6-.8 5.4-1.4 8-2.2 3.3-.9 6.7-1.8 10-2.7 3.3-.9 6.7-1.8 10-2.7 3-.8 6-1.6 9-2.5 3-.8 6-1.6 9-2.5 3.7-.9 7.4-1.7 11-2.6-3.7 25.3-7.4 50.5-11.1 75.7-2.5 16.3-4.9 32.7-7.5 49.9 16.1-4.4 31.4-8.6 46.8-12.8 1.5 3.3.1 4.9-.3 6.7-18.2 73.5-36.6 147-54.8 220.6-.5 2-.6 4.5-2.3 5.2-.9-11.3-.1-22 0-32.9.4-35.6 1.1-71 1.6-106.5 0-2.6 0-5.2-.1-8.3-14.9 4.1-29.3 8-44.7 12.2-1.5-63.4-3-126-4.5-188.6 4.7-1.5 9.3-3 13.9-4.4z"/>
+    </g>
+<!--cloud-->
+        <path class="st1" d="M619.6 32.4c-85.9 0-162 33-208.1 83.5-112.9 16.1-197.1 78.9-197.1 153.9 0 87.2 113.9 157.9 254.4 157.9 27.7 0 54.4-2.8 79.4-7.9 22.6 5.1 46.6 7.9 71.4 7.9 140.8 0 254.9-88.5 254.9-197.6S760.4 32.4 619.6 32.4z"/>
+    </g>
+</svg>
